@@ -28,7 +28,6 @@ const handleDigit = (e) => {
   }
   if (currentOp.includes('.') && digit === '.') return
   setCurrentOp(currentOp+digit)
-  
 }
 
 const handleOperator = (e) => {
